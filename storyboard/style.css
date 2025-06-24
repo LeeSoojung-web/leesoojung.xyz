@@ -1,0 +1,76 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    
+    overflow: hidden;
+}
+
+div{
+	position: absolute;
+	width:50%;
+	height: 100%;
+}
+.half{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: auto;
+	padding:30px;
+	border-right:solid 1px grey;
+}
+
+
+table {
+	margin-top: 50px;
+	/*border: solid 1px grey;*/
+	width:350px;
+	height:250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, tr,td{
+	border: solid 1px grey;
+	border-collapse: collapse;
+
+}
+
+ 
+hr{
+	width: 350px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.right{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: auto;
+	padding:30px;
+	left:50%;
+
+}
+
+.main1{
+	text-align: right;
+}
+
+footer{
+	display: bottom;
+}
+
+
+
+@media screen and (max-width: 704px) {
+
+}
